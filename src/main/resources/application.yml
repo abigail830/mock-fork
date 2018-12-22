@@ -1,0 +1,14 @@
+#wiremock:
+#  server:
+#    files:
+#    stubs:
+#    - file:target/stubs/**/mappings/**/*.json
+#    port: 6565
+
+stubrunner:
+  StubsMode: LOCAL
+  workOffline: true
+  ids: com.github.abigail830:mock-server:+:stubs:6565
+  repositoryRoot: https://github.com/abigail830/mock-server
+  server:
+    port: 0
