@@ -4,7 +4,9 @@
 #    stubs:
 #    - file:target/stubs/**/mappings/**/*.json
 #    port: 6565
-
+spring:
+  main:
+    allow-bean-definition-overriding: true
 stubrunner:
   StubsMode: LOCAL
   workOffline: true
