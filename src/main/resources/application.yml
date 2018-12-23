@@ -4,6 +4,8 @@
 #    stubs:
 #    - file:target/stubs/**/mappings/**/*.json
 #    port: 6565
+server:
+  port: 9080
 spring:
   main:
     allow-bean-definition-overriding: true
